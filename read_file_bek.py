@@ -19,9 +19,9 @@ print(contents)  # prints over 5 lines due to newline (/n) to mark each new line
 # open file in read mode
 with open('sample_files/pelican.txt', 'r') as file:
     # read all lines in file into a list
-    # lines = file.readlines()
+    lines = file.readlines()
     # strip() method removes newline character (\n) from each line
-    lines = [line.strip() for line in file.readlines()]
+    # lines = [line.strip() for line in file.readlines()]
 
 # print the list
 print(lines)
